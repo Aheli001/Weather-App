@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #5b5ec7c4;
+    /* background-image: url(images/Clear.jpg); */
+    height: 100vh;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: top center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: cover;
+    font-size: 1.8rem;
+}
+.text{
+    text-align: center;
+    font-size: large;
+    font-weight: normal;
+    color: #251b3e;
+}
+.container{
+    width: 70vh;
+    margin: 100px auto;
+    background-color: rgba(206, 221, 221, 0.589);
+    padding: 20px;
+    text-align: center;
+}
+.container > *{
+    margin-bottom: 20px;
+}
+.inputbox{
+    width: 100%;
+    background-color: rgba(250, 250, 250, 0.555);
+    border: none;
+    outline: none;
+    color: #2c8ec7;
+    font-size: 1.2rem;
+    height: 50px;
+    border-radius: 5px;
+    padding: 0 10px;
+    text-align: center;
+}
+.details{
+    color: #2c8ec7;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: rgba(250, 250, 250, 0.555);
+    /* visibility: hidden; */
+}
+.location{
+    font-weight: bold;
+}
+#weatherstatus{
+    padding: 20px;
+}
+#temp{
+    font-size: 50pt;
+    font-weight: 700;
+    margin: 20px 0;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.3);
+}
+.min-max, .weather {
+    font-size: 12pt;
+    font-weight: 600;
+}
